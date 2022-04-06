@@ -1,0 +1,382 @@
+html,
+body {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+#cust_data {
+  position: absolute;
+  margin-top: 12%;
+  margin-left: 60%;
+  color: blue;
+}
+#a_1 {
+  padding-right: 4px !important;
+}
+.my_modal_four {
+  background-color: #0300c2;
+  width: 530px;
+  height: 792px !important;
+}
+.modal-content {
+  background-color: #0300c2;
+  width: 530px;
+  /*height: 785px;*/
+}
+.modal-dialog.modals-default .modal-content,
+.modal-dialog.modal-sm .modal-content,
+.modal-dialog.modal-large .modal-content {
+  border-radius: 0px;
+  padding: 0px 13px !important;
+}
+.modals-default .close,
+.modal-sm .close,
+.modal-large .close {
+  position: absolute;
+  right: 7px !important;
+  top: 22px !important;
+  background: none !important;
+  opacity: 1;
+  color: black;
+  z-index: 11 !important;
+  height: 39px !important;
+  width: 40px !important;
+  border-radius: 50%;
+  font-size: 33px !important;
+  outline: none;
+}
+
+/*html {*/
+/*  overflow: hidden;*/
+/*  height: 100%;*/
+/*}*/
+/*body {*/
+/*  overflow: auto;*/
+/*  height: 100%;*/
+/*}*/
+
+/* unset bs3 setting */
+/*.modal-open {*/
+/* overflow: auto; */
+/*}*/
+.modal {
+  overflow-y: auto;
+}
+
+.modal-open .close {
+  overflow: auto;
+}
+
+.main-menu-area > div {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+.modal-open[style] {
+  padding-right: 0px !important;
+}
+
+.test[style] {
+  padding-right: 0 !important;
+}
+.test.modal-open {
+  overflow: auto;
+}
+#map {
+  margin: 0;
+  margin-top: 0px;
+  height: 100%;
+}
+.google-map-single {
+  height: 721px;
+  padding-left: 0px !important;
+  padding-bottom: 0px !important;
+  padding-right: 0px !important;
+  padding-top: 0px !important;
+}
+.white_content_progress {
+  z-index: 999;
+  margin-top: -1.2%;
+  top: 9% !important;
+  left: 12% !important;
+}
+.owl-item {
+  border: solid 3px #385d8a;
+}
+.glyphicon-chevron-left {
+  margin-left: -49% !important;
+  font-size: 47px !important;
+}
+.glyphicon-chevron-right {
+  margin-right: -34% !important;
+  font-size: 47px !important;
+}
+.modal-header .modalclose {
+  font-size: 37px !important;
+}
+.footer-copyright-area {
+  background: white;
+}
+.footer-copyright-area p {
+  margin: 0;
+  font-size: 14px;
+  color: black !important;
+  padding: 15px 0px;
+}
+.carousel-caption {
+  color: #000;
+  width: 98% !important;
+  height: 307px;
+  margin-bottom: 22px;
+  left: 2% !important;
+  text-shadow: none;
+  font-size: 11px;
+  text-align: left;
+  padding-top: 0px !important;
+}
+a:hover {
+  /*color: #ffffff;*/
+  text-decoration: none;
+}
+#example1 {
+  border: 2px solid blue;
+  padding: 10px;
+  border-radius: 25px;
+  height: 150px !important;
+}
+#example1 > p {
+  padding-left: 50px !important;
+  padding-right: 50px !important;
+}
+.div_cls {
+  position: absolute;
+  /* bottom: 0; */
+  width: 75%;
+  height: 55px;
+  /*background-color: rgba(224,207,244,0.36);*/
+  z-index: 999;
+  top: 3%;
+  padding: 7px;
+  color: #fff;
+  left: 18%;
+}
+.carousel-control {
+  position: absolute;
+  top: 39%;
+  bottom: 49px;
+  left: 0;
+  width: 15%;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0);
+  filter: alpha(opacity=50);
+  opacity: 0.5;
+  height: 0%;
+}
+.mobile-menu-area {
+  background: #f5f5f5 !important;
+  text-align: center;
+}
+.mobile-sub-menu {
+  border-bottom: 1px solid #ea1414;
+  padding: 2px;
+}
+.mobile-sub-menu-text {
+  color: blue;
+}
+
+.mobile-sub-menu-text:hover {
+  color: #a5a3a3 !important;
+  text-decoration: none;
+}
+.mobile-sub-menu-text:active {
+  color: #a5a3a3 !important;
+  text-decoration: none;
+}
+
+#mapSearchContainer {
+  position: fixed;
+  top: 20px;
+  right: 40px;
+  height: 30px;
+  width: 180px;
+  z-index: 110;
+  font-size: 10pt;
+  color: #5d5d5d;
+  border: solid 1px #bbb;
+  background-color: #f8f8f8;
+}
+.pointer {
+  position: absolute;
+  top: 86px;
+  left: 60px;
+  z-index: 99999;
+}
+.geocoder-control {
+  display: none;
+  position: absolute !important;
+  margin-left: 238px !important;
+}
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+.nav-tabs > li {
+  float: left;
+  margin-bottom: -1px !important;
+  margin-top: 5px !important;
+  width: 12% !important;
+  text-align: center !important;
+  margin-left: 0.5% !important;
+  font-weight: bold !important;
+  font-size: 11px !important;
+}
+.nav > li > a {
+  position: relative;
+  display: block;
+  /*padding: 0px 15px !important;*/
+}
+.leaflet-control-layers {
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  background-clip: padding-box;
+  display: none !important;
+}
+.save_btn {
+  top: 0px;
+  margin-top: -93%;
+  position: relative;
+  z-index: 9999;
+  left: 1%;
+  display: none;
+}
+/*.leaflet-draw-section {*/
+/*    position: relative;*/
+/*    display: none;*/
+/*}*/
+@media (min-width: 320px) and (max-width: 480px) {
+  .white_content_progress {
+    width: 320px !important;
+    margin-top: 84%;
+    margin-left: -12%;
+  }
+  /*.owl-item{*/
+  /*    width: 310px !important;*/
+  /*}*/
+  .modal-body {
+    width: 302px;
+    margin-left: -16px;
+  }
+  .modal-content1 {
+    margin-top: -100%;
+  }
+  .modal-header {
+    width: 240px;
+  }
+  .google-map-single {
+    height: 950px !important;
+    /*  width: 329px !important;*/
+    /*margin-left: -29px;*/
+  }
+
+  .slider_img {
+    height: 650px !important;
+  }
+
+  .modal-footer {
+    width: 157px;
+    margin-top: 84%;
+    margin-left: 37%;
+  }
+  .waves-effect {
+    margin-bottom: 1.5%;
+  }
+  .modal-footer > button {
+    width: 76%;
+  }
+  .text1 {
+    margin-bottom: 1.5%;
+    width: 75% !important;
+    /* margin-right: 29%; */
+    margin-left: 6%;
+  }
+  .text2 {
+    margin-bottom: 1.5%;
+    width: 75% !important;
+    /* margin-right: 29%; */
+    margin-left: 6%;
+  }
+  #example1 {
+    margin-bottom: 3.5%;
+  }
+  .navbtn {
+    float: left;
+    width: 33.33% !important;
+    margin-bottom: 2.5%;
+  }
+  .header_area {
+    border-right: none !important;
+  }
+  .mobile-container {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+  }
+  .dialog_mobile {
+    margin-left: 42px !important;
+    margin-top: 33% !important;
+  }
+  .dialog_mobile_2 {
+    margin-left: 20px !important;
+  }
+  .content_mobile {
+    width: 327px !important;
+  }
+  .mb_block {
+    width: 317px !important;
+  }
+  .modal-header .close {
+    margin-top: -70% !important;
+    margin-right: -17% !important;
+  }
+  .footer-copy-right > div > p {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  .white_content_progress {
+    width: 820px !important;
+    margin-left: -7%;
+    margin-top: -16%;
+  }
+  .navbtn {
+    float: left;
+    width: 33.33% !important;
+    margin-bottom: 2.5%;
+  }
+  .footer-copyright-area {
+    margin-top: 12%;
+  }
+  .google-map-single {
+    margin-top: 4%;
+  }
+
+  .text1 {
+    width: 46% !important;
+    margin-left: -2%;
+  }
+  .text2 {
+    width: 46% !important;
+  }
+  .textmiddle {
+    margin-bottom: 12%;
+  }
+}
